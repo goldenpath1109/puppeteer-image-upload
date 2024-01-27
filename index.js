@@ -20,6 +20,7 @@ const puppeteer = require("puppeteer");
   // get the selector input type=file (for upload file)
   //   await page.waitForSelector("input[type=file]");
   //   await page.waitFor(1000);
+  
 
   // get the ElementHandle of the selector above
   const inputUploadHandle = await page.$("input[type=file]");
